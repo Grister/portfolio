@@ -5,3 +5,4 @@
 sass/
 *.scss
 *.sass
+dist/
