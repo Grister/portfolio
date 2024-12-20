@@ -1,18 +1,15 @@
-const hamburger = document.querySelector('.hamburger'),
-      menu = document.querySelector('.menu'),
-      close = document.querySelector('.menu__close');
 
-hamburger.addEventListener('click', () => {
-    menu.classList.add('active');
-});
+function themeSwitch() {
+    const themeSwitcher = document.getElementById("themeSwitch");
+    const root = document.documentElement;
 
-close.addEventListener('click', () => {
-    menu.classList.remove('active');
-});
-
-const counters = document.querySelectorAll('.skills__ratings-counter'),
-    lines = document.querySelectorAll('.skills__ratings-line span');
-
-counters.forEach((item, i) => {
-    lines[i].style.width = item.innerHTML;
-});
+    if (themeSwitcher.checked == true) {
+        root.style.setProperty('--background-color', '#0D0D0D');
+        root.style.setProperty('--main-color', '#F0F0F0');
+        root.style.setProperty('--shadow', '9px 5px 30px 0 #7C8188');
+    } else {
+        root.style.setProperty('--background-color', '#F0F0F0');
+        root.style.setProperty('--main-color', '#0D0D0D');
+        root.style.setProperty('--shadow', '18px 18px 30px 0px #d1d9e6, -13px -13px 30px 0 #fff');
+    }
+}
