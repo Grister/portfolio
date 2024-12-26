@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +14,16 @@
     <meta property="og:url" content="https://metatags.io/">
     <meta property="og:title" content="My Portfolio">
     <meta property="og:description" content="Here you can check out my work and learn more about me">
-    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="og:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://metatags.io/">
     <meta property="twitter:title" content="My Portfolio">
     <meta property="twitter:description" content="Here you can check out my work and learn more about me">
-    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="twitter:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
     <!-- Favicon  -->
     <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
@@ -32,7 +35,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/favicon//android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
@@ -40,10 +43,10 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
-    <link rel="stylesheet" href="css/modern-normalize.min.css" />
+
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
     <div class="elipse yellow"></div>
     <div class="elipse red"></div>
@@ -54,13 +57,13 @@
                 <a href="/index.html" class="navbar__element" id="navbar__logo">
                     <img src="icons/g.svg" alt="g" class="main__logo">
                 </a>
-                <a href="/index.html" class="navbar__element navbar-active">
+                <a href="/index.html" class="navbar__element">
                     Main page
                 </a>
                 <a href="/projects.html" class="navbar__element">
                     Projects
                 </a>
-                <a href="/contact.html" class="navbar__element">
+                <a href="/contact.html" class="navbar__element navbar-active">
                     Contacts
                 </a>
             </nav>
@@ -70,39 +73,51 @@
                 </a>
                 <div class="sidebar-element devider"></div>
                 <div class="sidebar-element theme">
-                    <input 
-                        type="checkbox" 
-                        id="themeSwitch" 
-                        name="theme__switch" 
-                        class="theme__switch-input"
-                    />
+                    <input type="checkbox" id="themeSwitch" name="theme__switch" class="theme__switch-input" />
                     <label for="themeSwitch" class="theme__switch-label">
                         <span></span>
                     </label>
                 </div>
             </div>
         </header>
-        <div class="promo">
-            <div class="promo__info">
-                <h1 class="title">
-                    Zakhar Kravchenko <br><span>Python Backend Developer</span>
-                </h1>
-                <div class="promo__descr">
-                    A junior Backend developer who wants to bring ideas to life through code, ensuring they seamlessly integrate into
-                    the
-                    digital landscape. I specialize in web application development with Python and its frameworks.
-                </div>
-                <div class="promo__buttons-block">
-                    <a href="" class="btn btn__black" target="_blank">
-                        Dowload my CV
-                    </a>
-                    <a href="" class="btn" target="_blank">
-                        Contact me <img src="icons/social/telegram.svg" alt="telegram" class="btn__telegram">
-                    </a>
-                </div>
-            </div>
-            <div class="promo__icon">
-                <img src="icons/main_icon.png" alt="programmer" class="main__icon">
+        <div class="contacts">
+            <h1 class="title title-center">
+                Contact me
+            </h1>
+            <div class="contacts__wrapper">
+                <a href="https://github.com/Grister/" class="contacts__item" target="_blank">
+                    GitHub: @grister
+                    <svg width="36" height="36" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.99998 0.637939C3.8316 0.637939 0.451477 4.01731 0.451477 8.18644C0.451477 11.5217 2.61435 14.3511 5.6136 15.3493C5.99073 15.4193 6.12923 15.1856 6.12923 14.9862C6.12923 14.8062 6.12223 14.2116 6.11898 13.5808C4.01898 14.0374 3.57585 12.6902 3.57585 12.6902C3.23248 11.8177 2.73773 11.5857 2.73773 11.5857C2.05273 11.1172 2.78935 11.1269 2.78935 11.1269C3.54723 11.1801 3.94648 11.9048 3.94648 11.9048C4.61973 13.0586 5.71235 12.7251 6.1431 12.5323C6.21085 12.0444 6.40648 11.7113 6.62235 11.5228C4.94573 11.3322 3.1831 10.6848 3.1831 7.79244C3.1831 6.96831 3.4781 6.29494 3.96098 5.76619C3.88248 5.57619 3.6241 4.80844 4.03398 3.76869C4.03398 3.76869 4.66773 3.56581 6.11023 4.54244C6.71248 4.37506 7.35835 4.29094 7.99998 4.28806C8.64123 4.29094 9.28748 4.37481 9.89085 4.54219C11.3316 3.56556 11.9646 3.76844 11.9646 3.76844C12.3755 4.80806 12.1171 5.57594 12.0387 5.76594C12.5227 6.29469 12.8156 6.96806 12.8156 7.79219C12.8156 10.6914 11.0497 11.3297 9.36885 11.5167C9.63973 11.7509 9.88098 12.2104 9.88098 12.9146C9.88098 13.9246 9.87223 14.7374 9.87223 14.9861C9.87223 15.1869 10.0082 15.4223 10.3907 15.3482C13.3882 14.3489 15.5486 11.5204 15.5486 8.18644C15.5485 4.01756 12.1687 0.637939 7.99998 0.637939Z"
+                            fill="var(--main-color)" />
+                    </svg>
+                </a>
+   
+                <a href="https://www.linkedin.com/in/grister/" class="contacts__item" target="_blank">
+                    LinkedIn: @grister
+                    <svg width="38" height="33" viewBox="0 0 38 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M33.2599 32.8291H4.74645C2.4968 32.8291 0.673096 31.2327 0.673096 29.2634V4.30371C0.673096 2.33444 2.4968 0.738037 4.74645 0.738037H33.2599C35.5096 0.738037 37.3333 2.33444 37.3333 4.30371V29.2634C37.3333 31.2327 35.5096 32.8291 33.2599 32.8291ZM26.7994 28.372H32.2396V18.5893C32.2396 14.4501 29.5591 12.4487 25.8152 12.4487C22.0695 12.4487 20.4931 15.0021 20.4931 15.0021V12.9208H15.2503V28.372H20.4931V20.2611C20.4931 18.0878 21.6359 16.7945 23.8234 16.7945C25.8341 16.7945 26.7994 18.0373 26.7994 20.2611V28.372ZM5.7628 8.04638C5.7628 9.62091 7.20988 10.8976 8.99569 10.8976C10.7815 10.8976 12.2277 9.62091 12.2277 8.04638C12.2277 6.47185 10.7815 5.19518 8.99569 5.19518C7.20988 5.19518 5.7628 6.47185 5.7628 8.04638ZM11.7554 28.372H6.28854V12.9208H11.7554V28.372Z"
+                            fill="var(--main-color)" />
+                    </svg>
+                </a>
+                <a href="https://t.me/lewiscarroll" class="contacts__item" target="_blank">
+                    Telegram: @lewiscarroll
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M36 18C36 22.7739 34.1036 27.3523 30.7279 30.7279C27.3523 34.1036 22.7739 36 18 36C13.2261 36 8.64773 34.1036 5.27208 30.7279C1.89642 27.3523 0 22.7739 0 18C0 13.2261 1.89642 8.64773 5.27208 5.27208C8.64773 1.89642 13.2261 0 18 0C22.7739 0 27.3523 1.89642 30.7279 5.27208C34.1036 8.64773 36 13.2261 36 18ZM18.6457 13.2885C16.8937 14.0175 13.3943 15.525 8.14725 17.811C7.29675 18.1485 6.8505 18.48 6.8085 18.8055C6.741 19.3522 7.42725 19.5683 8.361 19.863L8.75475 19.9868C9.67275 20.286 10.9102 20.6348 11.5515 20.6483C12.1365 20.6633 12.7875 20.4233 13.5045 19.9283C18.408 16.6193 20.9385 14.9467 21.096 14.9107C21.2085 14.8837 21.366 14.8523 21.4695 14.9468C21.573 15.0413 21.564 15.2167 21.5528 15.264C21.4853 15.5542 18.792 18.0562 17.3992 19.3522C16.965 19.7572 16.6568 20.043 16.5938 20.1083C16.4551 20.2501 16.314 20.3896 16.1707 20.5268C15.3157 21.3503 14.6768 21.9668 16.2045 22.9748C16.9403 23.4608 17.5298 23.859 18.117 24.2595C18.756 24.696 19.395 25.1303 20.223 25.6748C20.433 25.8128 20.6355 25.953 20.8305 26.0955C21.5753 26.6265 22.248 27.1035 23.0738 27.027C23.5553 26.982 24.0525 26.532 24.3045 25.182C24.9008 21.9938 26.073 15.0885 26.343 12.2422C26.36 12.0057 26.3502 11.7679 26.3137 11.5335C26.2919 11.3445 26.2005 11.1704 26.0573 11.0452C25.8523 10.9045 25.6084 10.8313 25.3597 10.836C24.6847 10.8472 23.643 11.2095 18.6457 13.2885Z"
+                            fill="var(--main-color)" />
+                    </svg>
+                </a>
+                <a href="mailto:carroll.lewi@gmail.com" class="contacts__item" target="_blank">
+                    Email: carroll.lewi@gmail.com
+                    <svg width="36" height="29" viewBox="0 0 36 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M32.4 25.375H28.8V9.51562L18 16.3125L7.2 9.51562V25.375H3.6V3.625H5.76L18 11.3281L30.24 3.625H32.4M32.4 0H3.6C1.602 0 0 1.61312 0 3.625V25.375C0 26.3364 0.379284 27.2584 1.05442 27.9383C1.72955 28.6181 2.64522 29 3.6 29H32.4C33.3548 29 34.2705 28.6181 34.9456 27.9383C35.6207 27.2584 36 26.3364 36 25.375V3.625C36 2.66359 35.6207 1.74156 34.9456 1.06174C34.2705 0.381918 33.3548 0 32.4 0Z"
+                            fill="var(--main-color)" />
+                    </svg>
+                </a>
             </div>
         </div>
     </main>
@@ -112,19 +127,20 @@
             <div class="footer__logo">
                 [g]rist
             </div>
-        
+
             <div class="footer__text">
                 © 2023 | Designed and coded with ❤️️ by Kravchenko Zakhar
             </div>
-        
+
             <div class="footer__links">
                 <a href="mailto:carroll.lewi@gmail.com" class="footer-link" target="_blank">
                     <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M4.17285 4.13477H20.1729C21.2729 4.13477 22.1729 5.03477 22.1729 6.13477V18.1348C22.1729 19.2348 21.2729 20.1348 20.1729 20.1348H4.17285C3.07285 20.1348 2.17285 19.2348 2.17285 18.1348V6.13477C2.17285 5.03477 3.07285 4.13477 4.17285 4.13477Z"
-                            stroke="var(--main-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M22.1729 6.13477L12.1729 13.1348L2.17285 6.13477" stroke="var(--main-color)" stroke-width="2" stroke-linecap="round"
+                            stroke="var(--main-color)" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" />
+                        <path d="M22.1729 6.13477L12.1729 13.1348L2.17285 6.13477" stroke="var(--main-color)"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
 
                 </a>
